@@ -120,11 +120,12 @@ html {
 .navbar {
   position: fixed;
   top: 0;
-  left: 0; /* Sol kenara hizala */
+  left: 5px;
+ /* Sol kenara hizala */
   width: 100%;
   z-index: 20; /* Videonun üzerinde kalması için yüksek bir z-index değeri */
-  background-color: rgba(0, 0, 0, 0.5); /* Şeffaf arka plan */
-  padding: 1rem; /* İçerik için biraz boşluk */
+  background-color: rgba(177, 70, 185, 0.5); /* Şeffaf arka plan */
+  padding:1rem; /* İçerik için biraz boşluk */
   display: flex;
   justify-content: space-between; /* Logo ve menü arasındaki alanı aç */
   align-items: center; /* Dikey olarak ortala */
