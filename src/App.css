@@ -2,6 +2,92 @@ html {
   scroll-behavior: smooth;
 }
 
+.video-container {
+  position: relative;
+  width: 65%; /* Video genişliği, margin bırakmak için azaltıldı */
+  height: auto; /* Yükseklik otomatik ayarlanacak */
+  display: flex;
+  justify-content: center; /* Yatayda ortalama */
+  align-items: center; /* Dikeyde ortalama */
+  z-index: 1;
+}
+
+.container {
+  z-index: 10; /* İçeriğin videonun üzerinde kalmasını sağlamak için z-index ayarı */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* İçeriği tam ortalamak için */
+}
+.z-10 {
+  z-index: 10;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0; /* Sol kenara hizala */
+  width: 100%;
+  z-index: 20; /* Videonun üzerinde kalması için yüksek bir z-index değeri */
+  background-color: rgba(0, 0, 0, 0.5); /* Şeffaf arka plan */
+  padding: 1rem; /* İçerik için biraz boşluk */
+  display: flex;
+  justify-content: space-between; /* Logo ve menü arasındaki alanı aç */
+  align-items: center; /* Dikey olarak ortala */
+}
+
+
+.navbar img {
+  margin-left: 10px; /* Sol tarafta boşluk bırak */
+}
+
+.navbar h3 {
+  margin-left: 10px; /* Logo ile metin arasında boşluk bırak */
+}
+
+
+
 
 /* Profil kartlarını içeren kapsayıcı */
 .profile-container {
