@@ -46,7 +46,7 @@ const App = () => {
   ];
 
   return (
-    <div className='overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-800'>
+    <div className='overflow-x-hidden font-semibold text-neutral-100 antialiased selection:bg-cyan-300 selection:text-cyan-800'>
       {/* Ana Arka Plan - Gradient Geçişler */}
       <div className='fixed top-0 left-0 w-screen h-screen -z-10 bg-gradient-to-br from-gray-900 via-purple-900 to-black'></div>
 
