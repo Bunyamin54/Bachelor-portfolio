@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Om_Oss from './components/Om_Oss';
 import Medlemmer from './components/Medlemmer';
+import MedlemmerPage from './components/MedlemmerPage'; // Correct file path
+
 import Technologies from './components/Technologies';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -63,6 +65,11 @@ const App = () => {
         <section id="om-oss">
           <Om_Oss />
         </section>
+
+        <section id="medlemmer">
+          <MedlemmerPage profiles={profiles} /> {/* Use MedlemmerPage instead of Medlemmer */}
+        </section>
+
 
         <section id="medlemmer">
           <div className="flex flex-wrap justify-between">

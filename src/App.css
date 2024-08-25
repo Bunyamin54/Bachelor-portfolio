@@ -4,7 +4,7 @@ html {
 
 .video-container {
   position: relative;
-  width: 65%; /* Video genişliği, margin bırakmak için azaltıldı */
+  width: 100%; /* Video genişliği, margin bırakmak için azaltıldı */
   height: auto; /* Yükseklik otomatik ayarlanacak */
   display: flex;
   justify-content: center; /* Yatayda ortalama */

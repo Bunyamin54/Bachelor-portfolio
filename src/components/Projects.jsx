@@ -8,7 +8,7 @@ const Projects = () => {
         whileInView={{opacity: 1, y:0 }} 
         initial={{opacity: 0, y: -100}}
         transition= {{duration: 0.5}}
-        className='my-20 text-center text-4xl'>
+        className='pb-24 pt-24 text-center text-4xl '>
         Our Projects
       </motion.h1>
 

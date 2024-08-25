@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className='navbar mb-20 flex items-center justify-between py-6 px-4 md:px-8 font-bold '>
       <div className='flex items-center'>
         <img className="w-16 border-r-2 pr-4" src={logo} alt="logo" />
-        <h3 className='text-2xl md:text-3xl pl-4 font-bold hover:text-lime-300'>GRUPPE - 7</h3>
+        <h3 className='text-2xl md:text-3xl pl-4 font-bold hover:text-lime-300'>GRUPPE 7 </h3>
       </div>
 
       {/* Hamburger Menu */}

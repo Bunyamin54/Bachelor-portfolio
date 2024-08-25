@@ -13,7 +13,13 @@ const Om_Oss = () => {
           initial={{opacity: 0, x: -100}}
           transition={{duration: 0.8}}
         >
-          <h1 className="text-4xl font-bold mb-5 text-center">Om oss</h1>
+          <motion.h1 
+        whileInView={{ opacity: 1, y: 0 }} 
+        initial={{ opacity: 0, y: -100 }} 
+        transition={{ duration: 1.5 }} 
+        className="text-4xl font-bold my-20 text-center">
+        Om oss
+      </motion.h1>
           <p className="mb-4 text-2xl">
           Vår gruppe har en sterk interesse for digitalisering, med fokus på utvikling av nettbaserte løsninger som webapplikasjoner og designprosjekter. Vi er engasjerte i å utforske tjenestedesign, universell utforming, dataanalyse og sikkerhet, drevet av nysgjerrighet på hvordan teknologi kan løse komplekse problemer.
           </p>
@@ -23,11 +29,7 @@ const Om_Oss = () => {
           <p className="text-2xl">
             Denne bakgrunnen utstyrer oss med de nødvendige ferdighetene for å takle utfordringer innen digitalisering, fra idefasen til implementering, med en helhetlig forståelse av teknologiske løsninger.
           </p>
-          <div className="w-full flex justify-end mt-9">
-            <h1 className="text-4xl font-bold mt-12 mb-5 text-center">
-              Medlemmer
-            </h1>
-          </div>
+         
 
         </motion.div>
 
