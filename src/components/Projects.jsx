@@ -14,7 +14,7 @@ const Projects = () => {
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
         className='pb-24 pt-24 text-center text-4xl'>
-        Our Projects
+        Vår Prosjekter
       </motion.h1>
 
       <div>  
