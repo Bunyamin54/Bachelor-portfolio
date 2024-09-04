@@ -18,7 +18,7 @@ const Hjem = () => {
           </h1>
           <div className="w-full px-4">
             <p className="text-xs sm:text-xl md:text-2xl lg:text-3xl text-left font-bold  text-lime-200">
-              Vår gruppe er dypt engasjert i å utforske digitaliseringens verden, med et særlig fokus på Frontend utvikling ve UX design.
+              Vår gruppe er dypt engasjert i å utforske digitaliseringens verden, med et særlig fokus på Frontend utvikling ve UX design. 
             </p>
           </div>
         </div>

@@ -24,7 +24,11 @@ const Om_Oss = () => {
           Vår gruppe har en sterk interesse for digitalisering, med fokus på utvikling av nettbaserte løsninger som webapplikasjoner og designprosjekter. Vi er engasjerte i å utforske tjenestedesign, universell utforming, dataanalyse og sikkerhet, drevet av nysgjerrighet på hvordan teknologi kan løse komplekse problemer.
           </p>
           <p className="mt-3 text-2xl">
-          Gruppen vår har gjennomført flere kurs hos Clarusway, hvor vi har tilegnet oss ferdigheter innen både front-end og back-end webutvikling, spesielt i React og JavaScript. Disse kursene har ikke bare styrket vår tekniske kompetanse, men også gitt oss innsikt i samarbeid og prosjektledelse, slik at vi er godt forberedt på å bidra i et dynamisk teknologisk miljø. Vi er læringsorienterte og ivrige etter å anvende vår kunnskap i praksis.
+          Gruppen vår har gjennomført flere kurs hos Clarusway, hvor vi har tilegnet oss ferdigheter innen både front-end og back-end webutvikling, spesielt i React og JavaScript. Disse kursene har ikke bare styrket vår tekniske kompetanse, men også gitt oss innsikt i samarbeid og prosjektledelse, slik at vi er godt forberedt på å bidra i et dynamisk teknologisk miljø. Vi er læringsorienterte og ivrige etter å anvende vår kunnskap i praksis. 
+
+           <p className='mt-3 text-2xl'>
+           Alle tre har fått tilbud om praksisprosjekter høsten 2024. Bünyamin jobber som frontend-utvikler hos Sikri, Mehmet er DevOps-ingeniør hos Moso Design, og Tahir gjennomfører sin praksis som utvikler på Testfest-saken hos Tingtun.
+           </p>
           </p>
           <p className="mt-3 text-2xl">
             Denne bakgrunnen utstyrer oss med de nødvendige ferdighetene for å takle utfordringer innen digitalisering, fra idefasen til implementering, med en helhetlig forståelse av teknologiske løsninger.
