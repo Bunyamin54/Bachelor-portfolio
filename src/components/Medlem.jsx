@@ -11,7 +11,7 @@ const Medlem = ({ name, content, image, linkedin, github }) => {
         <div className='flex flex-wrap justify-center'>
           <div className='w-full lg:w-2/3 px-2'>
             <div className='flex flex-col items-center text-center'>
-              <img src={image} alt={name} className="rounded-full w-80 h-80 mb-4 " />
+              <img src={image} alt={name} className="rounded-full w-60 h-60 mb-4 " />
               <h1 className='pb-2 text-3xl font-bold tracking-tight lg:mt-4 '>{name}</h1>
               <h2 className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
                 

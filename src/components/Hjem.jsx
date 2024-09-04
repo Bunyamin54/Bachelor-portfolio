@@ -13,11 +13,11 @@ const Hjem = () => {
 
         {/* İçerik */}
         <div className="absolute z-10 flex flex-col items-center text-white text-center">
-          <h1 className="text-7xl font-semibold mb-10 text-lime-300">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-10 text-lime-300">
             Innovative Webcrafters
           </h1>
           <div className="w-full px-4">
-            <p className="text-3xl text-left font-bold  text-lime-200">
+            <p className="text-xs sm:text-xl md:text-2xl lg:text-3xl text-left font-bold  text-lime-200">
               Vår gruppe er dypt engasjert i å utforske digitaliseringens verden, med et særlig fokus på Frontend utvikling ve UX design.
             </p>
           </div>
