@@ -2,24 +2,26 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Video Container and Video Styling */
 .video-container {
   position: relative;
-  width: 100%; /* Video genişliği, margin bırakmak için azaltıldı */
-  height: auto; /* Yükseklik otomatik ayarlanacak */
+  width: 100%;
+  height: auto; /* Video height will adjust automatically */
   display: flex;
-  justify-content: center; /* Yatayda ortalama */
-  align-items: center; /* Dikeyde ortalama */
-  z-index: 1;
-}
-
-.container {
-  z-index: 10; /* İçeriğin videonun üzerinde kalmasını sağlamak için z-index ayarı */
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  z-index: 1; /* Ensure the video is behind other content */
 }
 
 .video-container video {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: cover; /* Ensure the video covers the container proportionally */
+}
+
+/* Container for content over the video */
+.container {
+  z-index: 10; /* Ensure content is above the video */
 }
 
 .relative {
@@ -30,10 +32,10 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* İçeriği tam ortalamak için */
+  transform: translate(-50%, -50%); /* Perfectly centers content over the video */
 }
 
-
+/* Responsive text styles for different devices */
 .responsive-text {
   font-size: 6vw;
   line-height: 1.2;
@@ -49,6 +51,7 @@ html {
   line-height: 1.4;
 }
 
+/* Media queries for different screen sizes */
 @media (min-width: 640px) {
   .responsive-text {
     font-size: 5vw;
@@ -85,6 +88,7 @@ html {
   }
 }
 
+/* Utility Classes */
 .z-10 {
   z-index: 10;
 }
@@ -117,54 +121,50 @@ html {
   color: white;
 }
 
+/* Navbar Styling */
 .navbar {
   position: fixed;
   top: 0;
-  left: 5px;
- /* Sol kenara hizala */
-  width: 100%;
-  z-index: 20; /* Videonun üzerinde kalması için yüksek bir z-index değeri */
-  background-color: rgba(177, 70, 185, 0.5); /* Şeffaf arka plan */
-  padding:1rem; /* İçerik için biraz boşluk */
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 20; /* Ensure it's above other content, including the video */
+  background-color: rgba(88, 11, 94, 0.894); /* Transparent background */
+  padding: 1rem; /* Add some padding around the content */
   display: flex;
-  justify-content: space-between; /* Logo ve menü arasındaki alanı aç */
-  align-items: center; /* Dikey olarak ortala */
+  justify-content: space-between; /* Space between logo and menu */
+  align-items: center; /* Vertically center items */
+  border-bottom: 2px solid white; /* Add bottom border */
 }
 
-
 .navbar img {
-  margin-left: 10px; /* Sol tarafta boşluk bırak */
+  margin-left: 10px; /* Space to the left of the logo */
 }
 
 .navbar h3 {
-  margin-left: 10px; /* Logo ile metin arasında boşluk bırak */
+  margin-left: 10px; /* Space between logo and text */
 }
 
-
-
-
-/* Profil kartlarını içeren kapsayıcı */
+/* Profile Card Layout */
 .profile-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Profile cards take up full width on small screens */
+@media (max-width: 768px) {
+  .profile-card {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
-  
-  /* Profil kartları küçük ekranlarda tam genişlikte olacak */
-  @media (max-width: 768px) {
-    .profile-card {
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
+}
+
+/* Profile cards are side by side on larger screens */
+@media (min-width: 769px) {
+  .profile-card {
+    flex: 0 0 30%;
+    max-width: 30%;
   }
-  
-  /* Orta ve büyük ekranlar için profil kartları yan yana gelecek */
-  @media (min-width: 769px) {
-    .profile-card {
-      flex: 0 0 30%;
-      max-width: 30%;
-    }
-  }
-  
+}

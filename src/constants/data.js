@@ -69,7 +69,7 @@ export const PROJECTS = [
   
 export const CONTACT = {
   adress: "Universitet i Agder Kristiansand - 2024",
-  email: "bunyaming@uia.no  --- phoneNo: 486 23 860 "
+  email: "bunyaming@uia.no  --- Telefon: 486 23 860 "
   
 }
 
